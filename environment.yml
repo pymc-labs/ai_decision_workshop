@@ -1,0 +1,13 @@
+name: ai_decision_workshop
+
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - arviz
+  - jupyter
+  - matplotlib
+  - numpy<2.0.0
+  - pandas
+  - pymc
+  - scipy

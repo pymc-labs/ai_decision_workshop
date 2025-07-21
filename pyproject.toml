@@ -1,0 +1,20 @@
+[project]
+name = "bayesian-decision-workshop"
+version = "0.1.0"
+description = "Learn Bayesian decision-making with PyMC"
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+    "arviz",
+    "jupyter",
+    "matplotlib",
+    "numpy<2.0.0",  # PyMC compatibility constraint
+    "pandas",
+    "pymc",
+    "scipy",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
