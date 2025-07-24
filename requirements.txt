@@ -1,4 +1,5 @@
 arviz
+graphviz
 jupyter
 matplotlib
 numpy<2.0.0
