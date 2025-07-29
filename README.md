@@ -58,11 +58,21 @@ Finally, you'll move from individual models to complete Bayesian workflows:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-To run this workshop locally, you'll need a working **Python 3.11+ environment** with PyMC and related packages.
+Use these links to run the notebooks on Colab (no setup required):
+
+* [Notebook 1: Priors and Posteriors](https://colab.research.google.com/github/pymc-labs/ai_decision_workshop/blob/main/notebooks/01_prior_and_posterior.ipynb)
+
+* [Notebook 2: Bayesian Bandits](https://colab.research.google.com/github/pymc-labs/ai_decision_workshop/blob/main/notebooks/02_bayesian_bandits.ipynb)
+
+* [Notebook 3: Hierarchical Models](https://colab.research.google.com/github/pymc-labs/ai_decision_workshop/blob/main/notebooks/03_hierarchical.ipynb.ipynb)
+
+Or follow the instructions below to run the notebooks locally.
 
 ---
+
+To run this workshop locally, you'll need a working **Python 3.11+ environment** with PyMC and related packages.
 
 ### 1. Set up your Python environment
 
