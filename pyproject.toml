@@ -12,6 +12,7 @@ dependencies = [
     "matplotlib",
     "numpy<2.0.0",  # PyMC compatibility constraint
     "pandas",
+    "pydot",
     "pymc",
     "scipy",
 ]
