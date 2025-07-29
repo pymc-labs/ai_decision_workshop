@@ -16,13 +16,20 @@ This workshop is based on tutorials taught my PyMC Labs, with some examples from
 
 ---
 
-## 🛠 What You'll Build
+Use these links to run the notebooks on Colab (no setup required):
 
-The workshop is divided into three phases:
+🚀 **[Notebook 1: Priors and Posteriors](https://colab.research.google.com/github/pymc-labs/ai_decision_workshop/blob/main/notebooks/01_prior_and_posterior.ipynb)**
 
----
+🎯 **[Notebook 2: Bayesian Bandits](https://colab.research.google.com/github/pymc-labs/ai_decision_workshop/blob/main/notebooks/02_bayesian_bandits.ipynb)**
 
-### ✅ Phase 0: Building Bayesian Intuition
+🏗️ **[Notebook 3: Hierarchical Models](https://colab.research.google.com/github/pymc-labs/ai_decision_workshop/blob/main/notebooks/03_hierarchical.ipynb)**
+
+Or follow the instructions below to run the notebooks locally.
+
+## Outline
+
+
+### ✅ Phase 1: Building Bayesian Intuition
 
 You'll start by developing a solid foundation in Bayesian thinking:
 - Understand the fundamentals of probability and uncertainty.
@@ -34,7 +41,7 @@ This gives you the Bayesian mindset needed for more complex modeling.
 
 ---
 
-### ✅ Phase 1: Probabilistic Decision Making
+### ✅ Phase 2: Probabilistic Decision Making
 
 After building Bayesian intuition, you'll create decision-support systems:
 - Use Bayesian A/B testing to compare alternatives probabilistically.
@@ -48,7 +55,7 @@ You'll also learn how to:
 
 ---
 
-### ✅ Phase 2: Advanced Bayesian Workflows
+### ✅ Phase 3: Advanced Bayesian Workflows
 
 Finally, you'll move from individual models to complete Bayesian workflows:
 - Build posterior predictive distributions to evaluate rare events.
@@ -58,21 +65,10 @@ Finally, you'll move from individual models to complete Bayesian workflows:
 
 ---
 
-## Getting Started
+## Running Locally
 
-Use these links to run the notebooks on Colab (no setup required):
-
-* [Notebook 1: Priors and Posteriors](https://colab.research.google.com/github/pymc-labs/ai_decision_workshop/blob/main/notebooks/01_prior_and_posterior.ipynb)
-
-* [Notebook 2: Bayesian Bandits](https://colab.research.google.com/github/pymc-labs/ai_decision_workshop/blob/main/notebooks/02_bayesian_bandits.ipynb)
-
-* [Notebook 3: Hierarchical Models](https://colab.research.google.com/github/pymc-labs/ai_decision_workshop/blob/main/notebooks/03_hierarchical.ipynb)
-
-Or follow the instructions below to run the notebooks locally.
-
----
-
-To run this workshop locally, you'll need a working **Python 3.11+ environment** with PyMC and related packages.
+We recommend you run the notebooks on Colab, using the links above.
+But if you want to run locally, you'll need a working **Python 3.11+ environment** with PyMC and related packages.
 We've provided requirements files for Conda/pip, pixi, and uv, and we recommend them in that order.
 
 ### 1. Setup with Conda/pip
@@ -97,7 +93,7 @@ pixi shell
 
 ### 3. Setup with uv
 
-**Note:** This option requires separate installation of GraphViz system library.
+**Note:** This option requires separate installation of GraphViz, which is used to display graphical representations of the models.
 
 Navigate to the repository and create the environment:
 
@@ -110,7 +106,7 @@ source .venv/bin/activate  # macOS/Linux
 uv pip install -r requirements.txt
 ```
 
-**Install GraphViz system library:**
+**Install GraphViz:**
 - **macOS:** `brew install graphviz`
 - **Ubuntu/Debian:** `sudo apt-get install graphviz`
 - **Windows:** Download from [GraphViz website](https://graphviz.org/download/)
