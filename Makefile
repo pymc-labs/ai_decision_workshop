@@ -3,7 +3,9 @@ PYTHON_VERSION = 3.11
 
 
 create_environment:
-	conda create -y -c conda-forge -n $(PROJECT_NAME) python=$(PYTHON_VERSION) "pymc>=5" pytensor
+	conda create -y -c conda-forge -n $(PROJECT_NAME) python=$(PYTHON_VERSION) arviz graphviz jupyter matplotlib numpy pandas pymc scipy
+	@echo "Installing preliz in conda environment..."
+	bash -c "source $$(conda info --base)/etc/profile.d/conda.sh && conda activate $(PROJECT_NAME) && pip install git+https://github.com/arviz-devs/preliz.git"
 	@echo ">>> conda env created. Activate with:\nconda activate $(PROJECT_NAME)"
 
 

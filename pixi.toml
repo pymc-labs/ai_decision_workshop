@@ -10,12 +10,15 @@ version = "0.1.0"
 
 [dependencies]
 python = "3.11.*"
+jupyter = "*"
+pydot = ">=4.0.1,<5"
+
+[pypi-dependencies]
 arviz = "*"
 graphviz = "*"
-jupyter = "*"
 matplotlib = "*"
-numpy = "<2.0.0"
+numpy = "*"
 pandas = "*"
-pydot = "*"
+preliz = {git = "https://github.com/arviz-devs/preliz.git"}
 pymc = "*"
 scipy = "*"
