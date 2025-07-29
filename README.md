@@ -66,7 +66,7 @@ Use these links to run the notebooks on Colab (no setup required):
 
 * [Notebook 2: Bayesian Bandits](https://colab.research.google.com/github/pymc-labs/ai_decision_workshop/blob/main/notebooks/02_bayesian_bandits.ipynb)
 
-* [Notebook 3: Hierarchical Models](https://colab.research.google.com/github/pymc-labs/ai_decision_workshop/blob/main/notebooks/03_hierarchical.ipynb.ipynb)
+* [Notebook 3: Hierarchical Models](https://colab.research.google.com/github/pymc-labs/ai_decision_workshop/blob/main/notebooks/03_hierarchical.ipynb)
 
 Or follow the instructions below to run the notebooks locally.
 
