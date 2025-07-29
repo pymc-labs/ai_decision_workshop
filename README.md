@@ -73,31 +73,52 @@ Or follow the instructions below to run the notebooks locally.
 ---
 
 To run this workshop locally, you'll need a working **Python 3.11+ environment** with PyMC and related packages.
+We've provided requirements files for Conda/pip, pixi, and uv, and we recommend them in that order.
 
-### 1. Set up your Python environment
+### 1. Setup with Conda/pip
 
-We recommend using `uv` for managing dependencies.
+Navigate to the repository and use the Makefile to create a Conda environment and install the requirements:
 
 ```bash
-pip install uv
+cd ai_decision_workshop
+make create_environment
+conda activate ai_decision_workshop
+make requirements
+```
+
+### 2. Setup with pixi
+
+Navigate to the repository and activate the environment:
+
+```bash
+cd ai_decision_workshop
+pixi shell
+```
+
+### 3. Setup with uv
+
+**Note:** This option requires separate installation of GraphViz system library.
+
+Navigate to the repository and create the environment:
+
+```bash
+cd ai_decision_workshop
 uv venv
 source .venv/bin/activate  # macOS/Linux
 # or
 .venv\Scripts\activate  # Windows
-```
-
-Install dependencies:
-
-```bash
 uv pip install -r requirements.txt
 ```
 
+**Install GraphViz system library:**
+- **macOS:** `brew install graphviz`
+- **Ubuntu/Debian:** `sudo apt-get install graphviz`
+- **Windows:** Download from [GraphViz website](https://graphviz.org/download/)
+
 ---
 
-### 2. Running the Materials
-
 - **Notebooks** are located in the `notebooks/` folder.
-- **Solutions** and additional materials are in the `soln/` folder.
+- **Solutions** are in the `soln/` folder.
 
 Start with the notebooks in the `notebooks/` folder and work through them in order.
 
