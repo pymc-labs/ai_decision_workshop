@@ -8,8 +8,11 @@ dependencies:
   - graphviz
   - jupyter
   - matplotlib
-  - numpy<2.0.0
+  - numpy
   - pandas
   - pydot
   - pymc
   - scipy
+  - pip
+  - pip:
+    - git+https://github.com/arviz-devs/preliz.git

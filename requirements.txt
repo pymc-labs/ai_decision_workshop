@@ -2,9 +2,10 @@ arviz
 graphviz
 jupyter
 matplotlib
-numpy<2.0.0
+numpy
 pandas
 pydot
+git+https://github.com/arviz-devs/preliz.git
 pymc
 scipy
 
