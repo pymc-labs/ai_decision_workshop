@@ -19,6 +19,6 @@ graphviz = "*"
 matplotlib = "*"
 numpy = "*"
 pandas = "*"
-preliz = {git = "https://github.com/arviz-devs/preliz.git"}
+preliz = "*"
 pymc = "*"
 scipy = "*"
